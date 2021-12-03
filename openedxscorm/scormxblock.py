@@ -48,7 +48,7 @@ class ScormXBlock(XBlock):
     display_name = String(
         display_name=_("Display Name"),
         help=_("Display name for this module"),
-        default="Scorm module",
+        default="Scorm weight editable",
         scope=Scope.settings,
     )
     index_page_path = String(
